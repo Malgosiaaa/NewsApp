@@ -3,21 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:padding="@dimen/regular_padding"
-        android:text="@string/mentions_on_poland"
-        android:textAlignment="center"
-        android:textColor="@color/dark_color"
-        android:textStyle="bold|italic" />
-
     <ListView
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margin_top"
         android:orientation="vertical" />
 
     <!-- Empty view which is visible when there are no items to populate the articles list. -->

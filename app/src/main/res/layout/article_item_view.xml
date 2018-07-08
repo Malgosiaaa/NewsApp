@@ -8,45 +8,22 @@
 
     <TextView
         android:id="@+id/date"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:padding="@dimen/regular_padding"
-        android:textColor="@color/medium_color"
-        android:textSize="@dimen/small_text_size"
-        android:textStyle="italic"
+        style="@style/DateViewStyle"
         tools:text="March 8th, 2018" />
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="serif"
-        android:padding="@dimen/regular_padding"
-        android:textColor="@color/title_color"
-        android:textSize="@dimen/large_text_size"
-        android:textStyle="bold"
+        style="@style/TitleViewStyle"
         tools:text="Football emotions in Poland" />
 
     <TextView
         android:id="@+id/author"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:padding="@dimen/regular_padding"
-        android:textColor="@color/dark_color"
-        android:textSize="@dimen/medium_text_size"
+        style="@style/AuthorViewStyle"
         tools:text="John Smith" />
 
     <TextView
         android:id="@+id/section"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif"
-        android:padding="@dimen/regular_padding"
-        android:textColor="@color/light_color"
-        android:textSize="@dimen/small_text_size"
-        android:textStyle="bold"
+        style="@style/SectionViewStyle"
         tools:text="Sport" />
 
 </LinearLayout>

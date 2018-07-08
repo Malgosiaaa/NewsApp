@@ -1,6 +1,24 @@
 <resources>
     <string name="app_name">News App</string>
-    <string name="no_inet">No internet connection</string>
+    <string name="no_inet">No internet. Please try again later.</string>
     <string name="no_articles">No articles found</string>
-    <string name="mentions_on_poland">Mentions on Poland</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">Content Settings</string>
+
+    <string name="settings_topic_label">Search for:</string>
+    <string name="settings_topic_key">q</string>
+    <string name="settings_topic_default">football</string>
+
+    <string name="settings_order_by_label">Order by:</string>
+    <string name="settings_order_by_key">order-by</string>
+    <string name="settings_order_by_newest">newest</string>
+    <string name="settings_order_by_default">@string/settings_order_by_newest</string>
+
+    <!-- Label and value for order-by oldest publication date [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value">oldest</string>
+
+    <!-- Label and value for order-by most recent publication date [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value">newest</string>
 </resources>
